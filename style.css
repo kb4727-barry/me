@@ -1,1 +1,97 @@
+body {
+  background-color: #2f4f4f;
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: cadetblue;
+}
+
+.highlight {
+  background-color: #444;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.course-list {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+#main-heading {
+  color: #e3fffc;
+}
+
+a:link {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b0c4de;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #430c0c;
+}
+
+a:active {
+  color: aqua;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b6464;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+#main-nav div {
+  display: inline-block;
+}
+
+#main-nav a {
+  background-color: black;
+  color: aliceblue;
+  padding: 8px 12px;
+  border-radius: 10% 20%;
+}
+
+#main-nav a:hover {
+  background-color: #430c0c;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #b1b9b1;
+  text-align: center;
+}
 
