@@ -128,4 +128,16 @@ footer {
 }
 
 
+#main-nav a:hover {
+  background-color: #430c0c;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #b1b9b1;
+  text-align: center;
+}
+
+
 
