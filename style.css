@@ -65,14 +65,36 @@ a:hover {
 
 a:active {
   color: aqua;
+  
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 30px;
+  justify-content: space-between;  
+  align-items: center;             
+  gap: 20px;                       
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;                
 }
+
+.flex-box {
+  background: pink;
+  color: black;                  
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  flex: 1;                         
+  white-space: nowrap;             
+}
+
+.flex-box a {
+  color: inherit;                 
+  text-decoration: none;           
+  display: block;                 
+}
+
 
 #main-nav {
   display: flex;
@@ -104,5 +126,4 @@ footer {
   border-top: 2px solid #b1b9b1;
   text-align: center;
 }
-
 
