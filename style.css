@@ -1,16 +1,18 @@
 body {
   background-color: #2f4f4f;
-  color: white;
-  font-family: 'Roboto', Arial, sans-serif;
+  color: pink;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0.1rem;
+  text-decoration-color: black;
   line-height: 1.4rem;
   margin: 0;
-  padding: 20px;
+  padding: 50px;
 }
 
 h1 {
-  font-family: "Times New Roman", serif;
-  font-size: 2rem;
+  font-family: Impact, fantasy;
+  font-size: 4rem;
+  color: pink;
   letter-spacing: 0.2rem;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -18,21 +20,30 @@ h1 {
 }
 
 h2 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: cadetblue;
+  text-decoration: underline;
+  text-decoration-color: black;
+
+  
 }
 
 .highlight {
   background-color: #444;
-  padding: 10px;
+  padding: 40px;
   font-weight: bold;
 }
 
-.course-list {
-  list-style-type: square;
-  padding-left: 30px;
+.my-list li {
+  background-color: black;   
+  color: pink;               
+  padding: 10px 15px;        
+  margin-bottom: 8px;    
+  border-radius: 10px;
+  width: 200px; 
+  text-align: center;       
+  
 }
 
 #main-heading {
@@ -49,8 +60,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
-  background-color: #430c0c;
+   background-color: #430c0c;
 }
 
 a:active {
@@ -61,7 +71,7 @@ a:active {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #main-nav {
@@ -94,4 +104,5 @@ footer {
   border-top: 2px solid #b1b9b1;
   text-align: center;
 }
+
 
